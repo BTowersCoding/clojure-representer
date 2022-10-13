@@ -8,8 +8,9 @@
       str))
 
 (fs/unzip 
+  (fs/file
   (path-str "." "main") 
-    "clj-kondo"))
+    "clj-kondo-2022.10.05-linux-static-amd64.zip")))
 
 (prn 
   (fs/list-dir 
