@@ -22,9 +22,9 @@
     (println (str (count solutions) " total solutions"))
     (println (str (count unique) " unique solutions"))
     (doseq [path (take 5 paths)]
-      (let [_ (sh/sh "bb" "main/clojure_representer.clj"
+      (let [representation (:out (sh/sh "bb" "main/clojure_representer.clj"
                "two-fer" (str path) (str path))]
         (println "Source")
         (slurp (fs/file path "two_fer.clj"))
         (println "Representation")
-        (slurp (fs/file path "representation.txt")))))
+        (prn representation))))
