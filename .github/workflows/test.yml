@@ -31,3 +31,4 @@ jobs:
       # `bb_script` step 
       - name: Get the script output
         run: echo "${{ steps.bb_script.outputs.bb_out }}"
+             echo "$PATH"
