@@ -25,6 +25,6 @@
       (let [representation (:out (sh/sh "bb" "main/clojure_representer.clj"
                            "two-fer" (str path) (str path)))]
         (println "Source")
-        (slurp (fs/file path "two_fer.clj"))
+        (prn (slurp (fs/file path "two_fer.clj")))
         (println "Representation")
         (prn representation))))
