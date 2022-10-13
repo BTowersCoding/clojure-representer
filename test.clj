@@ -12,9 +12,8 @@
   (path-str "." "main") 
     "clj-kondo-2022.10.05-linux-static-amd64.zip"))
 
-(-> (path-str "." "main" "resources" "twofers")
-    fs/list-dir 
-    first
-    (fs/file "two_fer.clj")
-    slurp
-    prn)
+(let [paths (fs/list-dir (path-str "." "main" "resources" "twofers"))
+      solutions (map #(slurp (fs/file % "two_fer.clj")) paths)
+      unique (set solutions)]
+    (println (str (count solutions) " total solutions "))
+    (println (str (count unique) " unique solutions)))
