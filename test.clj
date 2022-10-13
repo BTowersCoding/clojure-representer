@@ -9,6 +9,6 @@
 
 (prn (fs/cwd))
 
-;(fs/unzip "main/clj-kondo")
+(fs/unzip "main/clj-kondo")
 
-;(prn (fs/list-dir "main/resources/twofers/"))
+(prn (fs/list-dir "main/resources/twofers/"))
