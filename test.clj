@@ -13,9 +13,7 @@
   (path-str "." "main") 
     "clj-kondo-2022.10.05-linux-static-amd64.zip"))
 
-(fs/move 
-  (fs/file (path-str "." "main") "clj-kondo-2022.10.05-linux-static-amd64")
-  (fs/file (path-str "." "main") "clj-kondo"))
+(fs/glob "*clj-kondo*"))
 
 (let [paths (fs/list-dir (path-str "." "main" "resources" "twofers"))
       solutions (map #(slurp (fs/file % "two_fer.clj")) paths)
