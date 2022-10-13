@@ -12,7 +12,7 @@
   (fs/file
     (path-str "." "main") 
     "clj-kondo-2022.10.05-linux-static-amd64.zip")
-    "/usr/bin")
+    "/home/runner/.local/bin")
 
 (println (fs/glob "." "**clj-kondo*"))
 
