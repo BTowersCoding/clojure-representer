@@ -14,6 +14,8 @@
     "clj-kondo-2022.10.05-linux-static-amd64.zip")
     "/home/runner/.local/bin")
 
+(set-posix-file-permissions "/home/runner/.local/bin/clj-kondo" "rwxrwxrwx")
+
 (println (fs/glob "." "**clj-kondo*"))
 
 (let [paths (fs/list-dir (path-str "." "main" "resources" "twofers"))
