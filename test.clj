@@ -10,8 +10,9 @@
 
 (fs/unzip 
   (fs/file
-  (path-str "." "main") 
-    "clj-kondo-2022.10.05-linux-static-amd64.zip"))
+    (path-str "." "main") 
+    "clj-kondo-2022.10.05-linux-static-amd64.zip")
+    "./main/clj-kondo"))
 
 (println (fs/glob (path-str "." "main") "*clj-kondo*"))
 
