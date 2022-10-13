@@ -88,13 +88,12 @@
 
 (defn represent [zloc]
   (spit (str (fs/path out-dir "representation.txt")) 
-        (with-out-str (->
-                       (reduce replace-arglist zloc
-                               (mapcat arglists (:var-definitions analysis)))
-                       (replace-locals)
-                       z/root-string)))
-  (println (str "Representation written to " (fs/file out-dir "representation.txt"))))
+        (with-out-str 
+          (-> (reduce replace-arglist zloc
+                 (mapcat arglists (:var-definitions analysis)))
+              (replace-locals)
+              z/root-string))))
 
-(prn (represent impl))
+(println (represent impl))
 
 (System/exit 0)
