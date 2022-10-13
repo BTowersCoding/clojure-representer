@@ -95,6 +95,6 @@
                        z/root-string)))
   (println (str "Representation written to " (fs/file out-dir "representation.txt"))))
 
-(represent impl)
+(prn (represent impl))
 
 (System/exit 0)
