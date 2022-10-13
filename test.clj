@@ -2,9 +2,15 @@
 
 (require '[babashka.fs :as fs])
 
-(fs/unzip 
-  (fs/file 
-    (fs/path (fs/cwd) "./main/") 
-    ".clj-kondo"))
+(defn path-str [& parts] 
+  (-> (apply fs/path parts) 
+      fs/normalize
+      str))
 
-(prn (fs/list-dir (fs/path (fs/cwd) "./main/resources/twofers/")))
+(fs/unzip 
+  (path-str "." "main") 
+    "clj-kondo"))
+
+(prn 
+  (fs/list-dir 
+    (path-str "." "main" "resources" "twofers")))
