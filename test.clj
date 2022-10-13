@@ -1,6 +1,7 @@
 #!/usr/bin/env bb
 
-(require '[babashka.fs :as fs])
+(require '[babashka.fs :as fs]
+         '[clojure.java.shell :as sh])
 
 (defn path-str [& parts] 
   (-> (apply fs/path parts) 
@@ -16,4 +17,7 @@
       solutions (map #(slurp (fs/file % "two_fer.clj")) paths)
       unique (set solutions)]
     (println (str (count solutions) " total solutions"))
-    (println (str (count unique) " unique solutions")))
+    (println (str (count unique) " unique solutions"))
+    (sh/sh "bb" "clojure_representer.clj"
+           "two-fer" (str (first paths))
+            (str (first paths))))
