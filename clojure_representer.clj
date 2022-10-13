@@ -93,5 +93,5 @@
               z/root-string))))
 
 (println (represent impl))
-
+(prn placeholders)
 (System/exit 0)
