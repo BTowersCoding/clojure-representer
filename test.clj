@@ -12,6 +12,8 @@
   (path-str "." "main") 
     "clj-kondo-2022.10.05-linux-static-amd64.zip"))
 
-(prn 
-  (fs/list-dir 
-    (path-str "." "main" "resources" "twofers")))
+(-> (path-str "." "main" "resources" "twofers")
+    fs/list-dir 
+    first
+    slurp
+    prn))
