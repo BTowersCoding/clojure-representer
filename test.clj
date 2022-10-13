@@ -15,5 +15,6 @@
 (-> (path-str "." "main" "resources" "twofers")
     fs/list-dir 
     first
+    (fs/file "two-fer.clj")
     slurp
     prn))
