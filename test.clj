@@ -16,13 +16,16 @@
 
 (fs/set-posix-file-permissions "/home/runner/.local/bin/clj-kondo" "rwxrwxrwx")
 
-(println (fs/glob "." "**clj-kondo*"))
-
 (let [paths (fs/list-dir (path-str "." "main" "resources" "twofers"))
       solutions (map #(slurp (fs/file % "two_fer.clj")) paths)
       unique (set solutions)]
     (println (str (count solutions) " total solutions"))
     (println (str (count unique) " unique solutions"))
-    (sh/sh "bb" "main/clojure_representer.clj"
-           "two-fer" (str (first paths))
-            (str (first paths))))
+    (run! 
+     #(do 
+       (sh/sh "bb" "main/clojure_representer.clj"
+              "two-fer" (str %) (str %))
+       (println "Source")
+       (slurp (fs/file % "two_fer.clj"))
+       (println "Representation")
+       (slurp (fs/file % "representation.txt")))))
