@@ -18,6 +18,6 @@
       unique (set solutions)]
     (println (str (count solutions) " total solutions"))
     (println (str (count unique) " unique solutions"))
-    (sh/sh "bb" "clojure_representer.clj"
+    (sh/sh "bb" "./clojure_representer.clj"
            "two-fer" (str (first paths))
             (str (first paths))))
