@@ -7,7 +7,7 @@
  '[clojure.java.io :as io]
  '[babashka.fs :as fs])
 
-(fs/unzip "clj-kondo")
+(fs/unzip "main/clj-kondo")
 
 (prn
-  (fs/list-dir "resources/twofers/"))
+  (fs/list-dir "main/resources/twofers/"))
