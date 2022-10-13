@@ -23,9 +23,10 @@
     (println (str (count unique) " unique solutions"))
     (run! 
      #(do 
-       (sh/sh "bb" "main/clojure_representer.clj"
-              "two-fer" (str %) (str %))
-       (println "Source")
-       (slurp (fs/file % "two_fer.clj"))
-       (println "Representation")
-       (slurp (fs/file % "representation.txt")))))
+        (sh/sh "bb" "main/clojure_representer.clj"
+               "two-fer" (str %) (str %))
+        (println "Source")
+        (slurp (fs/file % "two_fer.clj"))
+        (println "Representation")
+        (slurp (fs/file % "representation.txt")))
+      (take 10 paths)))
