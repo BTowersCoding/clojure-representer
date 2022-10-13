@@ -15,5 +15,5 @@
 (let [paths (fs/list-dir (path-str "." "main" "resources" "twofers"))
       solutions (map #(slurp (fs/file % "two_fer.clj")) paths)
       unique (set solutions)]
-    (println (str (count solutions) " total solutions "))
-    (println (str (count unique) " unique solutions)))
+    (println (str (count solutions) " total solutions"))
+    (println (str (count unique) " unique solutions")))
