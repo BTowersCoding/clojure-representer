@@ -22,6 +22,7 @@
     (doseq [path (take 5 paths)]
       (let [representation (:out (sh/sh "bb" "clojure_representer.clj"
                            "two-fer" (str path) (str path)))]
+        (println representation)
         (println "Source")
         (println (slurp (fs/file path "two_fer.clj")))
         (println "Representation")
