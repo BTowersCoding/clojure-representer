@@ -19,7 +19,7 @@
       unique (set solutions)]
     (println (str (count solutions) " total solutions"))
     (println (str (count unique) " unique solutions"))
-    (doseq [path (take 5 paths)]
+    (doseq [path (take 15 paths)]
       (let [representation (:out (sh/sh "bb" "clojure_representer.clj"
                            "two-fer" (str path) (str path)))]
         (println representation)
