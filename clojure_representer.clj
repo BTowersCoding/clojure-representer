@@ -92,6 +92,8 @@
               (replace-locals)
               z/root-string))))
 
-(println (represent impl))
-(prn placeholders)
-(System/exit 0)
+(let [mapping (str (fs/path out-dir "mapping.json"))]
+  (println (represent impl))
+  (println (str out-dir "mapping.json:"))
+  (println (slurp mapping))
+  (System/exit 0))
