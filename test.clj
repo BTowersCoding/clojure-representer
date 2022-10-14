@@ -25,4 +25,4 @@
         (println "Source")
         (prn (slurp (fs/file path "two_fer.clj")))
         (println "Representation")
-        (prn (slurp (fs/file (path-str ".") "representation.txt"))))))
+        (prn (slurp (fs/file (path-str ".") ".representation.txt"))))))
