@@ -46,6 +46,7 @@
         locals (map str (map :name (:local-usages analysis)))
         placeholders (map #(str "PLACEHOLDER-" %) 
                           (range 1 (inc (+ (count locals) (count args)))))]
+    (println (str "Generating " (fs/file out-dir "mapping.json")))
     (spit (fs/file out-dir "mapping.json")
           (json/generate-string 
            (into (sorted-map-by 
@@ -54,6 +55,7 @@
                        (parse-long (last (str/split key2 #"-"))))))
                  (zipmap placeholders (into args locals)))
            {:pretty true}))
+    (println (slurp (fs/file out-dir "mapping.json")))
     (zipmap (into args locals) placeholders)))
 
 (def impl
