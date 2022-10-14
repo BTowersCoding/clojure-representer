@@ -26,4 +26,4 @@
         (println "Source")
         (println (slurp (fs/file path "two_fer.clj")))
         (println "Representation")
-        (println (slurp (fs/file path "representation.txt"))))))
+        (println (slurp (fs/file (fs/path (fs/cwd) path) "representation.txt"))))))
