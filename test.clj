@@ -26,4 +26,4 @@
         (prn (slurp (fs/file path "two_fer.clj")))
         (println "Representation")
         (prn (slurp (fs/file (path-str "." 
-path) ".representation.txt"))))))
+path) "representation.txt"))))))
