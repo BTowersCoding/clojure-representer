@@ -85,15 +85,14 @@
                (butlast idents)))))
 
 (defn represent [zloc]
-  (spit (str (fs/path out-dir "representation.txt")) 
-        (with-out-str 
-          (-> (reduce replace-arglist zloc
-                 (mapcat arglists (:var-definitions analysis)))
-              (replace-locals)
-              z/root-string))))
+  (spit (fs/file out-dir "representation.txt") 
+    (-> (reduce replace-arglist zloc
+           (mapcat arglists (:var-definitions analysis)))
+         replace-locals
+         z/root-string))))
 
-(let [mapping (str (fs/path out-dir "mapping.json"))]
+(let [mapping (str (fs/file out-dir "mapping.json"))]
   (println (represent impl))
-  (println (str out-dir "mapping.json:"))
+  (println mapping)
   (println (slurp mapping))
   (System/exit 0))
