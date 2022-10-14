@@ -46,7 +46,7 @@
         locals (map str (map :name (:local-usages analysis)))
         placeholders (map #(str "PLACEHOLDER-" %) 
                           (range 1 (inc (+ (count locals) (count args)))))]
-    (spit (str (fs/path out-dir "mapping.json"))
+    (spit (fs/file out-dir "mapping.json")
           (json/generate-string 
            (into (sorted-map-by 
                   (fn [key1 key2]
