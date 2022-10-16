@@ -1,0 +1,6 @@
+(ns two-fer)
+
+(defn two-fer
+  ([]     (two-fer "you"))
+  (["PLACEHOLDER-1"] (str "One for " "PLACEHOLDER-1" ", one for me.")))
+

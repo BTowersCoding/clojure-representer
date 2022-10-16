@@ -18,13 +18,13 @@
       solutions (map #(slurp (fs/file % "two_fer.clj")) paths)
       unique (set solutions)]
     (println (str (count solutions) " total solutions"))
-    (println (str (count unique) " unique solutions"))
-    (doseq [path (take 15 paths)]
-      (let [representation (:out (sh/sh "bb" "clojure_representer.clj"
-                           "two-fer" (str path) (str path)))]
-        (println (str "path= " path) )
-        (println representation)
-        (println "Source")
-        (println (slurp (fs/file path "two_fer.clj")))
-        (println "Representation")
-        (println (slurp (fs/file path "representation.txt"))))))
+        (println (str (count unique) " unique solutions"))
+        (doseq [path (take 15 paths)]
+          (let [representation (:out (sh/sh "bb" "clojure_representer.clj"
+                                            "two-fer" (str path) (str path)))]
+            (println (str "path= " path))
+            (println representation)
+            (println "Source")
+            (println (slurp (fs/file path "two_fer.clj")))
+            (println "Representation")
+            (println (slurp (fs/file path "representation.txt"))))))

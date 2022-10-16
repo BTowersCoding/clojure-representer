@@ -1,0 +1,2618 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 36349
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#<SciVar@132f0437: #object[sci.impl.fns$fun$arity_0__6914 0x1d7d9456 "sci.impl.fns$fun$arity_0__6914@1d7d9456"]>
+clj꞉user꞉> 
+; : /home/runner user 
+clj꞉user꞉> 
+500 total solutions
+331 unique solutions
+path= resources/twofers/49
+Generating resources/twofers/49/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+([name]  (str "One for " name ", one for me."))
+)
+Representation
+; : resources/twofers/49/representation.txt (No such file or directory) user 
+clj꞉user꞉> 
+500 total solutions
+331 unique solutions
+path= resources/twofers/49
+Generating resources/twofers/49/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+([name]  (str "One for " name ", one for me."))
+)
+Representation
+; : resources/twofers/49/representation.txt (No such file or directory) user 
+clj꞉user꞉> 
+500 total solutions
+331 unique solutions
+path= resources/twofers/49
+Generating resources/twofers/49/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+([name]  (str "One for " name ", one for me."))
+)
+Representation
+; : resources/twofers/49/representation.txt (No such file or directory) user 
+clj꞉user꞉> 
+[#object[sun.nio.fs.UnixPath 0x19cee59e "resources/twofers/49"]
+ #object[sun.nio.fs.UnixPath 0x46478e87 "resources/twofers/181"]
+ #object[sun.nio.fs.UnixPath 0x4a80d378 "resources/twofers/363"]
+ #object[sun.nio.fs.UnixPath 0x6130913d "resources/twofers/478"]
+ #object[sun.nio.fs.UnixPath 0xea83be3 "resources/twofers/433"]
+ #object[sun.nio.fs.UnixPath 0x7cac187b "resources/twofers/455"]
+ #object[sun.nio.fs.UnixPath 0x2413929c "resources/twofers/242"]
+ #object[sun.nio.fs.UnixPath 0x5d9b8621 "resources/twofers/52"]
+ #object[sun.nio.fs.UnixPath 0x3e461cfd "resources/twofers/413"]
+ #object[sun.nio.fs.UnixPath 0x118da698 "resources/twofers/379"]
+ #object[sun.nio.fs.UnixPath 0x63015fe "resources/twofers/27"]
+ #object[sun.nio.fs.UnixPath 0x2ec8b6c2 "resources/twofers/139"]
+ #object[sun.nio.fs.UnixPath 0x62354951 "resources/twofers/324"]
+ #object[sun.nio.fs.UnixPath 0x620082d0 "resources/twofers/498"]
+ #object[sun.nio.fs.UnixPath 0x1180200f "resources/twofers/312"]
+ #object[sun.nio.fs.UnixPath 0x7d96e393 "resources/twofers/484"]
+ #object[sun.nio.fs.UnixPath 0x7d691fcf "resources/twofers/205"]
+ #object[sun.nio.fs.UnixPath 0x4d7b12ca "resources/twofers/20"]
+ #object[sun.nio.fs.UnixPath 0x27308b24 "resources/twofers/107"]
+ #object[sun.nio.fs.UnixPath 0x762d7a11 "resources/twofers/464"]
+ #object[sun.nio.fs.UnixPath 0x800c037 "resources/twofers/366"]
+ #object[sun.nio.fs.UnixPath 0x8cc5fc2 "resources/twofers/82"]
+ #object[sun.nio.fs.UnixPath 0x7c129320 "resources/twofers/190"]
+ #object[sun.nio.fs.UnixPath 0x32e7377d "resources/twofers/305"]
+ #object[sun.nio.fs.UnixPath 0xb9cfb6c "resources/twofers/216"]
+ #object[sun.nio.fs.UnixPath 0x291c253e "resources/twofers/347"]
+ #object[sun.nio.fs.UnixPath 0x6d52f293 "resources/twofers/355"]
+ #object[sun.nio.fs.UnixPath 0x4c7e9d64 "resources/twofers/272"]
+ #object[sun.nio.fs.UnixPath 0x5ebb9f2f "resources/twofers/280"]
+ #object[sun.nio.fs.UnixPath 0x3aee8b78 "resources/twofers/101"]
+ #object[sun.nio.fs.UnixPath 0x790f3786 "resources/twofers/335"]
+ #object[sun.nio.fs.UnixPath 0x1b217ed1 "resources/twofers/407"]
+ #object[sun.nio.fs.UnixPath 0x514f292b "resources/twofers/172"]
+ #object[sun.nio.fs.UnixPath 0xdc87e0e "resources/twofers/125"]
+ #object[sun.nio.fs.UnixPath 0x510fef6f "resources/twofers/162"]
+ #object[sun.nio.fs.UnixPath 0x37f58fb5 "resources/twofers/123"]
+ #object[sun.nio.fs.UnixPath 0x13313874 "resources/twofers/182"]
+ #object[sun.nio.fs.UnixPath 0x49db08d3 "resources/twofers/96"]
+ #object[sun.nio.fs.UnixPath 0x47c66ee1 "resources/twofers/4"]
+ #object[sun.nio.fs.UnixPath 0x2909785e "resources/twofers/398"]
+ #object[sun.nio.fs.UnixPath 0xbc9fa81 "resources/twofers/248"]
+ #object[sun.nio.fs.UnixPath 0x9d821d0 "resources/twofers/53"]
+ #object[sun.nio.fs.UnixPath 0x798fffc4 "resources/twofers/456"]
+ #object[sun.nio.fs.UnixPath 0x37a82d9a "resources/twofers/295"]
+ #object[sun.nio.fs.UnixPath 0x6784d3f "resources/twofers/410"]
+ #object[sun.nio.fs.UnixPath 0x29910270 "resources/twofers/198"]
+ #object[sun.nio.fs.UnixPath 0x5a540793 "resources/twofers/267"]
+ #object[sun.nio.fs.UnixPath 0x559efe67 "resources/twofers/469"]
+ #object[sun.nio.fs.UnixPath 0x2cc39e8e "resources/twofers/231"]
+ #object[sun.nio.fs.UnixPath 0x320d9172 "resources/twofers/44"]
+ ...]
+clj꞉user꞉> 
+("(ns two-fer)\n\n\n(defn two-fer \n([]     \"One for you, one for me.\")\n([name]  (str \"One for \" name \", one for me.\"))\n)"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (str \"One for you, one for me.\"))\n  ([name] (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \" name \", one for me.\")))"
+ "(ns two-fer)\n\n(defn two-fer\n  ([]     (two-fer \"you\"))\n  ([name] (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name] (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer \n  ([] (two-fer \"you\"))\n  ([name] (format \"One for %s, one for me.\" name)))"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name] (str \"One for \" name \", one for me.\"))\n)\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name] ;; <- arglist goes here\n   (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \" name \", one for me.\"))\n)"
+ "(ns two-fer)\n\n(defn two-fer\n  ([]\n   \"One for you, one for me.\")\n  ([name]\n   (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer [&[name]]\n  (format \"One for %s, one for me.\" (if (nil? name) \"you\" name))\n)\n\n"
+ "(ns two-fer)\n\n(defn one-fer [name]\n  (format \"One for %s, one for me.\" name))\n\n(defn two-fer [& [name]]\n  (if name (one-fer name) (one-fer \"you\")))\n"
+ "(ns two-fer)\n\n(defn two-fer \n  ([]\n   (two-fer \"you\"))\n  ([name]\n   (str \"One for \" name \", one for me.\")))\n\n(def foo :bar)"
+ "(ns two-fer)\n\n(defn two-fer \n\t([] \"One for you, one for me.\")\n\t([name] (format \"One for %s, one for me.\" name))\n)\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ;; your code goes \n  ([name] (str \"One for \" name \", one for me.\"))\n  ([] (str \"One for you, one for me.\"))\n)\n\n(println (two-fer \"bob\"))\n(println (two-fer))\n"
+ "(ns two-fer\n  (:use [clojure.string :only (blank?)]))\n\n(defn two-fer\n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([name] (str \"One for \" name \", one for me.\"))\n  ([] \"One for you, one for me.\"))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name]\n   (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([name] (apply str \"One for \" name \", one for me.\"))\n  ([] (two-fer \"you\")))\n"
+ "(ns two-fer)\n\n(defn two-fer \n  ([] (two-fer \"you\"))\n  ([name] (str \"One for \" name \", one for me.\"))\n)\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([]\n  \"One for you, one for me.\")\n  ([name]\n  (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \" name \", one for me.\")))\n\n(two-fer )\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] \"One for you, one for me.\")\n  ([name] (format \"One for %s, one for me.\" name)))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer nil))\n  ([name] (let [no-name \"One for you, one for me.\" with-name \"One for %s, one for me.\"]\n            (if (or (nil? name) (empty? name))\n              no-name\n              (format with-name name)))))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  \"one for someone one for me\"\n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \"name\", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([name]\n   (str \"One for \" name \", one for me.\"))\n  ([]\n   (two-fer \"you\"))\n  )\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name] (str \"One for \" name \", one for me.\")))"
+ "(ns two-fer)\n\n(defn two-fer\n    ([name] (str \"One for \" (str name) \", one for me.\"))\n    ([] \"One for you, one for me.\")\n)\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([name]\n    (str \"One for \" name \", one for me.\"))\n  ([]\n   (two-fer \"you\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name] (format \"One for %s, one for me.\" name)))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([]\n   (two-fer \"you\"))\n  ([name]\n   (str \"One for %s, one for me.\" name))\n)\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name] (str \"One for \" name \", one for me.\"))\n)\n"
+ "(ns two-fer)\n\n(defn two-fer \n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer\n  (:require clojure.string))\n\n(defn two-fer\n  ([]\n   (two-fer \"\"))\n  ([name]\n   (let [trimmed-name (clojure.string/trim name)\n         address-name (if (= trimmed-name \"\")\n                        \"you\"\n                        trimmed-name)]\n     (str \"One for \" address-name \", one for me.\"))))\n\n(comment\n  (two-fer \"Bob\")\n  (two-fer \"\")\n  (two-fer))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  [& name]\n  (let [n (if (nil? (first name)) \"you\" (first name))]\n    (str \"One for \" n \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name] (format \"One for %s, one for me.\" (or name \"you\"))))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name] (str \"One for \" (if (= name \"\") \"you\" name) \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name] (str \"One for \" name \", one for me.\")))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \" name \", one for me.\"))\n)\n"
+ "(ns two-fer)\n\n(defn two-fer\n      ([] (str \"One for you, one for me.\"))\n      ([name] (str \"One for \" name \", one for me.\"))\n      )"
+ "(ns two-fer)\n\n(defn two-fer\n  ([name]\n    (str \"One for \" name \", one for me.\"))\n  ([]\n   (two-fer \"you\"))\n)\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] \"One for you, one for me.\")\n  ([name] (str \"One for \" name \", one for me.\"))\n)\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([]\n   \"One for you, one for me.\")\n  ([name] ;; <- arglist goes here\n   (str \"One for \" name \", one for me.\")))\n  ;; your code goes here\n"
+ "(ns two-fer)\n\n(defn two-fer [name] ;; <- arglist goes here\n  ;; your code goes here\n)\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([] (two-fer \"you\"))\n  ([name]\n   (format \"One for %s, one for me.\" name)))\n"
+ "(ns two-fer)\n\n(defn two-fer\n  ([]\n  (str \"One for you, one for me.\"))\n\n  ([name]\n  (str \"One for \" name \", one for me.\"))\n\n)\n\n(println (two-fer))\n"
+ "(ns two-fer)\n\n(defn two-fer ([name]\n              (str \"One for \" name \", one for me.\"))\n              ([]\n              (str \"One for you, one for me.\")\n              ) \n)\n"
+ "(ns two-fer)\n\n\n(defn two-fer \n([name] \n  (format \"One for %s, one for me.\" name))\n([]\n  \"One for you, one for me.\")\n)\n"
+ ...)
+clj꞉user꞉> 
+; : Could not resolve symbol: path user 
+clj꞉user꞉> 
+"Generating resources/twofers/49/mapping.json\n{\n  \"PLACEHOLDER-1\" : \"name\"\n}\n"
+clj꞉user꞉> 
+"Generating resources/twofers/49/mapping.json\n{\n  \"PLACEHOLDER-1\" : \"name\"\n}\n"
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#<SciVar@56961e29: "resources/twofers/49">
+clj꞉user꞉> 
+#<SciVar@206c000a: "resources/twofers/49">
+clj꞉user꞉> 
+#<SciVar@48acac42: #object[sci.impl.fns$fun$arity_1__7423 0x53a7e929 "sci.impl.fns$fun$arity_1__7423@53a7e929"]>
+clj꞉user꞉> 
+; : Could not resolve symbol: slug user 
+clj꞉user꞉> 
+#<SciVar@4c2910a1: "two-fer">
+clj꞉user꞉> 
+#<SciVar@54333c28: 
+  {:namespace-definitions
+   [{:end-row 1,
+     :name-end-col 12,
+     :name-end-row 1,
+     :name-row 1,
+     :name two-fer,
+     :filename "resources/twofers/49/two_fer.clj",
+     :col 1,
+     :name-col 5,
+     :end-col 13,
+     :row 1}],
+   :namespace-usages [],
+   :var-definitions
+   [{:fixed-arities #{0 1},
+     :end-row 7,
+     :name-end-col 14,
+     :name-end-row 4,
+     :name-row 4,
+     :ns two-fer,
+     :name two-fer,
+     :defined-by clojure.core/defn,
+     :filename "resources/twofers/49/two_fer.clj",
+     :col 1,
+     :name-col 7,
+     :end-col 2,
+     :arglist-strs ["[]" "[name]"],
+     :row 4}],
+   :var-usages
+   [{:fixed-arities #{0 1},
+     :end-row 6,
+     :name-end-col 14,
+     :name-end-row 6,
+     :name-row 6,
+     :name str,
+     :filename "resources/twofers/49/two_fer.clj",
+     :from two-fer,
+     :col 10,
+     :name-col 11,
+     :from-var two-fer,
+     :end-col 47,
+     :arity 3,
+     :varargs-min-arity 1,
+     :row 6,
+     :to clojure.core}
+    {:end-row 7,
+     :name-end-col 6,
+     :name-end-row 4,
+     :name-row 4,
+     :name defn,
+     :filename "resources/twofers/49/two_fer.clj",
+     :from two-fer,
+     :macro true,
+     :col 1,
+     :name-col 2,
+     :end-col 2,
+     :arity 3,
+     :varargs-min-arity 2,
+     :row 4,
+     :to clojure.core}],
+   :locals
+   [{:end-row 6,
+     :scope-end-row 6,
+     :name name,
+     :scope-end-col 48,
+     :filename "resources/twofers/49/two_fer.clj",
+     :str "name",
+     :col 3,
+     :id 1,
+     :end-col 7,
+     :row 6}],
+   :local-usages
+   [{:end-row 6,
+     :name-end-col 30,
+     :name-end-row 6,
+     :name-row 6,
+     :name name,
+     :filename "resources/twofers/49/two_fer.clj",
+     :col 26,
+     :id 1,
+     :name-col 26,
+     :end-col 30,
+     :row 6}]}>
+clj꞉user꞉> 
+#<SciVar@6f83c600: ({:name name, :row 6, :col 3} {:name name, :row 6, :col 26})>
+clj꞉user꞉> 
+Generating resources/twofers/49/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+#<SciVar@3a63f710: {"name" "PLACEHOLDER-1"}>
+clj꞉user꞉> 
+#<SciVar@fe0348c: 
+  {:rewrite-clj.custom-zipper.core/custom? true,
+   :node
+   {:tag :list,
+    :format-string "(%s)",
+    :wrap-length 2,
+    :seq-fn
+    #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+    :children
+    ({:value ns, :string-value "ns", :map-qualifier nil}
+     {:whitespace " "}
+     {:value two-fer, :string-value "two-fer", :map-qualifier nil})},
+   :position [1 1],
+   :parent
+   {:rewrite-clj.custom-zipper.core/custom? true,
+    :node
+    {:children
+     ({:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+       :children
+       ({:value ns, :string-value "ns", :map-qualifier nil}
+        {:whitespace " "}
+        {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+      {:newlines "\n\n\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+       :children
+       ({:value defn, :string-value "defn", :map-qualifier nil}
+        {:whitespace " "}
+        {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+        {:whitespace " "}
+        {:newlines "\n"}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+         :children
+         ({:tag :vector,
+           :format-string "[%s]",
+           :wrap-length 2,
+           :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+           :children ()}
+          {:whitespace "     "}
+          {:lines ["One for you, one for me."]})}
+        {:newlines "\n"}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+         :children
+         ({:tag :vector,
+           :format-string "[%s]",
+           :wrap-length 2,
+           :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+           :children ({:value name, :string-value "name", :map-qualifier nil})}
+          {:whitespace "  "}
+          {:tag :list,
+           :format-string "(%s)",
+           :wrap-length 2,
+           :seq-fn
+           #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+           :children
+           ({:value str, :string-value "str", :map-qualifier nil}
+            {:whitespace " "}
+            {:lines ["One for "]}
+            {:whitespace " "}
+            {:value name, :string-value "name", :map-qualifier nil}
+            {:whitespace " "}
+            {:lines [", one for me."]})})}
+        {:newlines "\n"})})},
+    :position [1 1],
+    :parent nil,
+    :left [],
+    :right ()},
+   :left [],
+   :right
+   ({:newlines "\n\n\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+     :children
+     ({:value defn, :string-value "defn", :map-qualifier nil}
+      {:whitespace " "}
+      {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+      {:whitespace " "}
+      {:newlines "\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+       :children
+       ({:tag :vector,
+         :format-string "[%s]",
+         :wrap-length 2,
+         :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+         :children ()}
+        {:whitespace "     "}
+        {:lines ["One for you, one for me."]})}
+      {:newlines "\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+       :children
+       ({:tag :vector,
+         :format-string "[%s]",
+         :wrap-length 2,
+         :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+         :children ({:value name, :string-value "name", :map-qualifier nil})}
+        {:whitespace "  "}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+         :children
+         ({:value str, :string-value "str", :map-qualifier nil}
+          {:whitespace " "}
+          {:lines ["One for "]}
+          {:whitespace " "}
+          {:value name, :string-value "name", :map-qualifier nil}
+          {:whitespace " "}
+          {:lines [", one for me."]})})}
+      {:newlines "\n"})})}>
+clj꞉user꞉> 
+#<SciVar@5f59f525: #object[sci.impl.fns$fun$arity_2__7430 0x12903cd6 "sci.impl.fns$fun$arity_2__7430@12903cd6"]>
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x7972d0f5 "sci.impl.fns$fun$arity_1__7423@7972d0f5"]>
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x65d1b7d1 "sci.impl.fns$fun$arity_2__7430@65d1b7d1"]>
+clj꞉user꞉> 
+#<SciVar@16f4a64a: #object[sci.impl.fns$fun$arity_1__7423 0x1255f4c2 "sci.impl.fns$fun$arity_1__7423@1255f4c2"]>
+clj꞉user꞉> 
+#<SciVar@4cee8c01: #object[sci.impl.fns$fun$arity_1__7423 0x5e3874ca "sci.impl.fns$fun$arity_1__7423@5e3874ca"]>
+clj꞉user꞉> 
+; : to use position functions, please construct your zipper with ':track-position?'  set to true. user 
+clj꞉user꞉> 
+; : to use position functions, please construct your zipper with ':track-position?'  set to true. user 
+clj꞉user꞉> 
+; : to use position functions, please construct your zipper with ':track-position?'  set to true. user 
+clj꞉user꞉> 
+[{:tag :vector,
+  :format-string "[%s]",
+  :wrap-length 2,
+  :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+  :children [{:value PLACEHOLDER-1, :string-value "PLACEHOLDER-1", :map-qualifier nil}]}
+ {:changed? true}]
+clj꞉user꞉> 
+#<SciVar@16f4a64a: #object[sci.impl.fns$fun$arity_1__7423 0x444cffda "sci.impl.fns$fun$arity_1__7423@444cffda"]>
+clj꞉user꞉> 
+[{:tag :vector,
+  :format-string "[%s]",
+  :wrap-length 2,
+  :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+  :children [{:value PLACEHOLDER-1, :string-value "PLACEHOLDER-1", :map-qualifier nil}]}
+ {:changed? true}]
+clj꞉user꞉> 
+; : to use position functions, please construct your zipper with ':track-position?'  set to true. user 
+clj꞉user꞉> 
+[{:tag :vector,
+  :format-string "[%s]",
+  :wrap-length 2,
+  :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+  :children [{:value PLACEHOLDER-1, :string-value "PLACEHOLDER-1", :map-qualifier nil}]}
+ {:changed? true}]
+clj꞉user꞉> 
+#<SciVar@16f4a64a: #object[sci.impl.fns$fun$arity_1__7423 0x69ffdd37 "sci.impl.fns$fun$arity_1__7423@69ffdd37"]>
+clj꞉user꞉> 
+; : Wrong number of args (2) passed to: sci.impl.fns/fun/arity-1--7423 user 
+clj꞉user꞉> 
+; : to use position functions, please construct your zipper with ':track-position?'  set to true. user 
+clj꞉user꞉> 
+[{:tag :vector,
+  :format-string "[%s]",
+  :wrap-length 2,
+  :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+  :children [{:value PLACEHOLDER-1, :string-value "PLACEHOLDER-1", :map-qualifier nil}]}
+ {:changed? true}]
+clj꞉user꞉> 
+"[PLACEHOLDER-1]"
+clj꞉user꞉> 
+{:tag :vector,
+ :format-string "[%s]",
+ :wrap-length 2,
+ :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+ :children [{:value PLACEHOLDER-1, :string-value "PLACEHOLDER-1", :map-qualifier nil}]}
+clj꞉user꞉> 
+"[PLACEHOLDER-1]"
+clj꞉user꞉> 
+({:var two-fer, :args []} {:var two-fer, :args [name]})
+clj꞉user꞉> 
+; : Could not resolve symbol: two-fer user 
+clj꞉user꞉> 
+{:rewrite-clj.custom-zipper.core/custom? true,
+ :node
+ {:tag :vector,
+  :format-string "[%s]",
+  :wrap-length 2,
+  :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+  :children []},
+ :position [5 2],
+ :parent
+ {:rewrite-clj.custom-zipper.core/custom? true,
+  :node
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+   :children
+   ({:tag :vector,
+     :format-string "[%s]",
+     :wrap-length 2,
+     :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+     :children ()}
+    {:whitespace "     "}
+    {:lines ["One for you, one for me."]})},
+  :position [5 1],
+  :parent
+  {:rewrite-clj.custom-zipper.core/custom? true,
+   :node
+   {:tag :list,
+    :format-string "(%s)",
+    :wrap-length 2,
+    :seq-fn
+    #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+    :children
+    ({:value defn, :string-value "defn", :map-qualifier nil}
+     {:whitespace " "}
+     {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+     {:whitespace " "}
+     {:newlines "\n"}
+     {:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+      :children
+      ({:tag :vector,
+        :format-string "[%s]",
+        :wrap-length 2,
+        :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+        :children ()}
+       {:whitespace "     "}
+       {:lines ["One for you, one for me."]})}
+     {:newlines "\n"}
+     {:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+      :children
+      ({:tag :vector,
+        :format-string "[%s]",
+        :wrap-length 2,
+        :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+        :children ({:value name, :string-value "name", :map-qualifier nil})}
+       {:whitespace "  "}
+       {:tag :list,
+        :format-string "(%s)",
+        :wrap-length 2,
+        :seq-fn
+        #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+        :children
+        ({:value str, :string-value "str", :map-qualifier nil}
+         {:whitespace " "}
+         {:lines ["One for "]}
+         {:whitespace " "}
+         {:value name, :string-value "name", :map-qualifier nil}
+         {:whitespace " "}
+         {:lines [", one for me."]})})}
+     {:newlines "\n"})},
+   :position [4 1],
+   :parent
+   {:rewrite-clj.custom-zipper.core/custom? true,
+    :node
+    {:children
+     ({:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+       :children
+       ({:value ns, :string-value "ns", :map-qualifier nil}
+        {:whitespace " "}
+        {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+      {:newlines "\n\n\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+       :children
+       ({:value defn, :string-value "defn", :map-qualifier nil}
+        {:whitespace " "}
+        {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+        {:whitespace " "}
+        {:newlines "\n"}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+         :children
+         ({:tag :vector,
+           :format-string "[%s]",
+           :wrap-length 2,
+           :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+           :children ()}
+          {:whitespace "     "}
+          {:lines ["One for you, one for me."]})}
+        {:newlines "\n"}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+         :children
+         ({:tag :vector,
+           :format-string "[%s]",
+           :wrap-length 2,
+           :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+           :children ({:value name, :string-value "name", :map-qualifier nil})}
+          {:whitespace "  "}
+          {:tag :list,
+           :format-string "(%s)",
+           :wrap-length 2,
+           :seq-fn
+           #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+           :children
+           ({:value str, :string-value "str", :map-qualifier nil}
+            {:whitespace " "}
+            {:lines ["One for "]}
+            {:whitespace " "}
+            {:value name, :string-value "name", :map-qualifier nil}
+            {:whitespace " "}
+            {:lines [", one for me."]})})}
+        {:newlines "\n"})})},
+    :position [1 1],
+    :parent nil,
+    :left [],
+    :right ()},
+   :left
+   [[{:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+      :children
+      ({:value ns, :string-value "ns", :map-qualifier nil}
+       {:whitespace " "}
+       {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+     [1 1]]
+    [{:newlines "\n\n\n"} [1 13]]],
+   :right nil},
+  :left
+  [[{:value defn, :string-value "defn", :map-qualifier nil} [4 2]]
+   [{:whitespace " "} [4 6]]
+   [{:value two-fer, :string-value "two-fer", :map-qualifier nil} [4 7]]
+   [{:whitespace " "} [4 14]]
+   [{:newlines "\n"} [4 15]]],
+  :right
+  ({:newlines "\n"}
+   {:tag :list,
+    :format-string "(%s)",
+    :wrap-length 2,
+    :seq-fn
+    #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+    :children
+    ({:tag :vector,
+      :format-string "[%s]",
+      :wrap-length 2,
+      :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+      :children ({:value name, :string-value "name", :map-qualifier nil})}
+     {:whitespace "  "}
+     {:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+      :children
+      ({:value str, :string-value "str", :map-qualifier nil}
+       {:whitespace " "}
+       {:lines ["One for "]}
+       {:whitespace " "}
+       {:value name, :string-value "name", :map-qualifier nil}
+       {:whitespace " "}
+       {:lines [", one for me."]})})}
+   {:newlines "\n"})},
+ :left [],
+ :right ({:whitespace "     "} {:lines ["One for you, one for me."]}),
+ :changed? true}
+clj꞉user꞉> 
+"(ns two-fer)\n\n\n(defn two-fer \n([]     \"One for you, one for me.\")\n([name]  (str \"One for \" name \", one for me.\"))\n)"
+clj꞉user꞉> 
+({:var two-fer, :args []} {:var two-fer, :args [name]})
+clj꞉user꞉> 
+; : no conversion to symbol user 
+clj꞉user꞉> 
+"(ns two-fer)\n\n\n(defn two-fer \n([]     \"One for you, one for me.\")\n([PLACEHOLDER-1]  (str \"One for \" name \", one for me.\"))\n)"
+clj꞉user꞉> 
+({:var two-fer, :args []} {:var two-fer, :args [name]})
+clj꞉user꞉> 
+[{:fixed-arities #{0 1},
+  :end-row 7,
+  :name-end-col 14,
+  :name-end-row 4,
+  :name-row 4,
+  :ns two-fer,
+  :name two-fer,
+  :defined-by clojure.core/defn,
+  :filename "resources/twofers/49/two_fer.clj",
+  :col 1,
+  :name-col 7,
+  :end-col 2,
+  :arglist-strs ["[]" "[name]"],
+  :row 4}]
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x74df4910 "sci.impl.fns$fun$arity_1__7423@74df4910"]>
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x6ff518d2 "sci.impl.fns$fun$arity_1__7423@6ff518d2"]>
+clj꞉user꞉> 
+({:var "two-fer", :args "[]"} {:var "two-fer", :args "[name]"})
+clj꞉user꞉> 
+; : no conversion to symbol user 
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x18ebd794 "sci.impl.fns$fun$arity_2__7430@18ebd794"]>
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x38a9b4be "sci.impl.fns$fun$arity_2__7430@38a9b4be"]>
+clj꞉user꞉> 
+;  user 
+clj꞉user꞉> 
+({:var "two-fer", :args "[]"} {:var "two-fer", :args "[name]"})
+clj꞉user꞉> 
+"[nil nil nil nil nil nil]"
+clj꞉user꞉> 
+"(ns two-fer)\n\n\n(defn two-fer \n([]     \"One for you, one for me.\")\n([\"PLACEHOLDER-1\"]  (str \"One for \" name \", one for me.\"))\n)"
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x25de1c69 "sci.impl.fns$fun$arity_1__7423@25de1c69"]>
+clj꞉user꞉> 
+({:var "two-fer", :args "[]"} {:var "two-fer", :args "[name]"})
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x4fd92327 "sci.impl.fns$fun$arity_1__7423@4fd92327"]>
+clj꞉user꞉> 
+({:var "two-fer", :args (edn/read-string %1)} {:var "two-fer", :args (edn/read-string %1)})
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x1607b84 "sci.impl.fns$fun$arity_1__7423@1607b84"]>
+clj꞉user꞉> 
+; : no conversion to symbol user 
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x27562fee "sci.impl.fns$fun$arity_1__7423@27562fee"]>
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x36f96f82 "sci.impl.fns$fun$arity_1__7423@36f96f82"]>
+clj꞉user꞉> 
+({:var "two-fer", :args "[]"} {:var "two-fer", :args "[name]"})
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x4dc9ecf0 "sci.impl.fns$fun$arity_1__7423@4dc9ecf0"]>
+clj꞉user꞉> 
+({:var "two-fer", :args "[]"} {:var "two-fer", :args "[name]"})
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x1adf819e "sci.impl.fns$fun$arity_1__7423@1adf819e"]>
+clj꞉user꞉> 
+; : java.lang.Character cannot be cast to java.lang.String user 
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x45a06897 "sci.impl.fns$fun$arity_1__7423@45a06897"]>
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x5c34a3db "sci.impl.fns$fun$arity_1__7423@5c34a3db"]>
+clj꞉user꞉> 
+({:var "two-fer", :args []} {:var "two-fer", :args [name]})
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x17a1d1d9 "sci.impl.fns$fun$arity_1__7423@17a1d1d9"]>
+clj꞉user꞉> 
+({:var "two-fer", :args ()} {:var "two-fer", :args (name)})
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x1ba60c2c "sci.impl.fns$fun$arity_1__7423@1ba60c2c"]>
+clj꞉user꞉> 
+({:var "two-fer", :args []} {:var "two-fer", :args [name]})
+clj꞉user꞉> 
+#<SciVar@553ce49: #object[sci.impl.fns$fun$arity_1__7423 0x79cfd5bf "sci.impl.fns$fun$arity_1__7423@79cfd5bf"]>
+clj꞉user꞉> 
+({:var two-fer, :args []} {:var two-fer, :args [name]})
+clj꞉user꞉> 
+"[\"PLACEHOLDER-1\"]"
+clj꞉user꞉> 
+"(ns two-fer)\n\n\n(defn two-fer \n([]     \"One for you, one for me.\")\n([\"PLACEHOLDER-1\"]  (str \"One for \" name \", one for me.\"))\n)"
+clj꞉user꞉> 
+; : java.lang.String cannot be cast to clojure.lang.IFn user 
+clj꞉user꞉> 
+; : to use position functions, please construct your zipper with ':track-position?'  set to true. user 
+clj꞉user꞉> 
+[{:tag :vector,
+  :format-string "[%s]",
+  :wrap-length 2,
+  :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+  :children [{:lines ["PLACEHOLDER-1"]}]}
+ {:changed? true}]
+clj꞉user꞉> 
+"[\"PLACEHOLDER-1\"]"
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x126a802e "sci.impl.fns$fun$arity_2__7430@126a802e"]>
+clj꞉user꞉> 
+; : rewrite_clj.node.forms.FormsNode cannot be cast to clojure.lang.IFn user 
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x437b4514 "sci.impl.fns$fun$arity_2__7430@437b4514"]>
+clj꞉user꞉> 
+; : java.lang.String cannot be cast to clojure.lang.IFn user 
+clj꞉user꞉> 
+; : java.lang.String cannot be cast to clojure.lang.IFn user 
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x31b677c "sci.impl.fns$fun$arity_2__7430@31b677c"]>
+clj꞉user꞉> 
+[{:tag :vector,
+  :format-string "[%s]",
+  :wrap-length 2,
+  :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+  :children [{:lines ["PLACEHOLDER-1"]}]}
+ {:changed? true}]
+clj꞉user꞉> 
+[{:tag :vector,
+  :format-string "[%s]",
+  :wrap-length 2,
+  :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+  :children [{:lines ["PLACEHOLDER-1"]}]}
+ {:changed? true}]
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+["PLACEHOLDER-1"]
+clj꞉user꞉> 
+"[\"PLACEHOLDER-1\"]"
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x42d17318 "sci.impl.fns$fun$arity_2__7430@42d17318"]>
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+({:var two-fer, :args []} {:var two-fer, :args [name]})
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+[{:fixed-arities #{0 1},
+  :end-row 7,
+  :name-end-col 14,
+  :name-end-row 4,
+  :name-row 4,
+  :ns two-fer,
+  :name two-fer,
+  :defined-by clojure.core/defn,
+  :filename "resources/twofers/49/two_fer.clj",
+  :col 1,
+  :name-col 7,
+  :end-col 2,
+  :arglist-strs ["[]" "[name]"],
+  :row 4}]
+clj꞉user꞉> 
+({:var two-fer, :args []} {:var two-fer, :args [name]})
+clj꞉user꞉> 
+{:rewrite-clj.custom-zipper.core/custom? true,
+ :node
+ {:tag :list,
+  :format-string "(%s)",
+  :wrap-length 2,
+  :seq-fn
+  #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+  :children
+  ({:tag :vector,
+    :format-string "[%s]",
+    :wrap-length 2,
+    :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+    :children [{:lines ["PLACEHOLDER-1"]}]}
+   {:whitespace "  "}
+   {:tag :list,
+    :format-string "(%s)",
+    :wrap-length 2,
+    :seq-fn
+    #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+    :children
+    ({:value str, :string-value "str", :map-qualifier nil}
+     {:whitespace " "}
+     {:lines ["One for "]}
+     {:whitespace " "}
+     {:value name, :string-value "name", :map-qualifier nil}
+     {:whitespace " "}
+     {:lines [", one for me."]})})},
+ :position [6 1],
+ :parent
+ {:rewrite-clj.custom-zipper.core/custom? true,
+  :node
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+   :children
+   ({:value defn, :string-value "defn", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+    {:whitespace " "}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ()}
+      {:whitespace "     "}
+      {:lines ["One for you, one for me."]})}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ({:value name, :string-value "name", :map-qualifier nil})}
+      {:whitespace "  "}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+       :children
+       ({:value str, :string-value "str", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines ["One for "]}
+        {:whitespace " "}
+        {:value name, :string-value "name", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines [", one for me."]})})}
+    {:newlines "\n"})},
+  :position [4 1],
+  :parent
+  {:rewrite-clj.custom-zipper.core/custom? true,
+   :node
+   {:children
+    ({:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+      :children
+      ({:value ns, :string-value "ns", :map-qualifier nil}
+       {:whitespace " "}
+       {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+     {:newlines "\n\n\n"}
+     {:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+      :children
+      ({:value defn, :string-value "defn", :map-qualifier nil}
+       {:whitespace " "}
+       {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+       {:whitespace " "}
+       {:newlines "\n"}
+       {:tag :list,
+        :format-string "(%s)",
+        :wrap-length 2,
+        :seq-fn
+        #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+        :children
+        ({:tag :vector,
+          :format-string "[%s]",
+          :wrap-length 2,
+          :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+          :children ()}
+         {:whitespace "     "}
+         {:lines ["One for you, one for me."]})}
+       {:newlines "\n"}
+       {:tag :list,
+        :format-string "(%s)",
+        :wrap-length 2,
+        :seq-fn
+        #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+        :children
+        ({:tag :vector,
+          :format-string "[%s]",
+          :wrap-length 2,
+          :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+          :children ({:value name, :string-value "name", :map-qualifier nil})}
+         {:whitespace "  "}
+         {:tag :list,
+          :format-string "(%s)",
+          :wrap-length 2,
+          :seq-fn
+          #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+          :children
+          ({:value str, :string-value "str", :map-qualifier nil}
+           {:whitespace " "}
+           {:lines ["One for "]}
+           {:whitespace " "}
+           {:value name, :string-value "name", :map-qualifier nil}
+           {:whitespace " "}
+           {:lines [", one for me."]})})}
+       {:newlines "\n"})})},
+   :position [1 1],
+   :parent nil,
+   :left [],
+   :right ()},
+  :left
+  [[{:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+     :children
+     ({:value ns, :string-value "ns", :map-qualifier nil}
+      {:whitespace " "}
+      {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+    [1 1]]
+   [{:newlines "\n\n\n"} [1 13]]],
+  :right nil},
+ :left
+ [[{:value defn, :string-value "defn", :map-qualifier nil} [4 2]]
+  [{:whitespace " "} [4 6]]
+  [{:value two-fer, :string-value "two-fer", :map-qualifier nil} [4 7]]
+  [{:whitespace " "} [4 14]]
+  [{:newlines "\n"} [4 15]]
+  [{:tag :list,
+    :format-string "(%s)",
+    :wrap-length 2,
+    :seq-fn
+    #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+    :children
+    ({:tag :vector,
+      :format-string "[%s]",
+      :wrap-length 2,
+      :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+      :children ()}
+     {:whitespace "     "}
+     {:lines ["One for you, one for me."]})}
+   [5 1]]
+  [{:newlines "\n"} [5 36]]],
+ :right ({:newlines "\n"}),
+ :changed? true}
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x3d75f665 "sci.impl.fns$fun$arity_2__7430@3d75f665"]>
+clj꞉user꞉> 
+{:rewrite-clj.custom-zipper.core/custom? true,
+ :node
+ {:tag :vector,
+  :format-string "[%s]",
+  :wrap-length 2,
+  :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+  :children [{:lines ["PLACEHOLDER-1"]}]},
+ :position [6 2],
+ :parent
+ {:rewrite-clj.custom-zipper.core/custom? true,
+  :node
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+   :children
+   ({:tag :vector,
+     :format-string "[%s]",
+     :wrap-length 2,
+     :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+     :children ({:value name, :string-value "name", :map-qualifier nil})}
+    {:whitespace "  "}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+     :children
+     ({:value str, :string-value "str", :map-qualifier nil}
+      {:whitespace " "}
+      {:lines ["One for "]}
+      {:whitespace " "}
+      {:value name, :string-value "name", :map-qualifier nil}
+      {:whitespace " "}
+      {:lines [", one for me."]})})},
+  :position [6 1],
+  :parent
+  {:rewrite-clj.custom-zipper.core/custom? true,
+   :node
+   {:tag :list,
+    :format-string "(%s)",
+    :wrap-length 2,
+    :seq-fn
+    #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+    :children
+    ({:value defn, :string-value "defn", :map-qualifier nil}
+     {:whitespace " "}
+     {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+     {:whitespace " "}
+     {:newlines "\n"}
+     {:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+      :children
+      ({:tag :vector,
+        :format-string "[%s]",
+        :wrap-length 2,
+        :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+        :children ()}
+       {:whitespace "     "}
+       {:lines ["One for you, one for me."]})}
+     {:newlines "\n"}
+     {:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+      :children
+      ({:tag :vector,
+        :format-string "[%s]",
+        :wrap-length 2,
+        :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+        :children ({:value name, :string-value "name", :map-qualifier nil})}
+       {:whitespace "  "}
+       {:tag :list,
+        :format-string "(%s)",
+        :wrap-length 2,
+        :seq-fn
+        #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+        :children
+        ({:value str, :string-value "str", :map-qualifier nil}
+         {:whitespace " "}
+         {:lines ["One for "]}
+         {:whitespace " "}
+         {:value name, :string-value "name", :map-qualifier nil}
+         {:whitespace " "}
+         {:lines [", one for me."]})})}
+     {:newlines "\n"})},
+   :position [4 1],
+   :parent
+   {:rewrite-clj.custom-zipper.core/custom? true,
+    :node
+    {:children
+     ({:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+       :children
+       ({:value ns, :string-value "ns", :map-qualifier nil}
+        {:whitespace " "}
+        {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+      {:newlines "\n\n\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+       :children
+       ({:value defn, :string-value "defn", :map-qualifier nil}
+        {:whitespace " "}
+        {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+        {:whitespace " "}
+        {:newlines "\n"}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+         :children
+         ({:tag :vector,
+           :format-string "[%s]",
+           :wrap-length 2,
+           :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+           :children ()}
+          {:whitespace "     "}
+          {:lines ["One for you, one for me."]})}
+        {:newlines "\n"}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+         :children
+         ({:tag :vector,
+           :format-string "[%s]",
+           :wrap-length 2,
+           :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+           :children ({:value name, :string-value "name", :map-qualifier nil})}
+          {:whitespace "  "}
+          {:tag :list,
+           :format-string "(%s)",
+           :wrap-length 2,
+           :seq-fn
+           #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+           :children
+           ({:value str, :string-value "str", :map-qualifier nil}
+            {:whitespace " "}
+            {:lines ["One for "]}
+            {:whitespace " "}
+            {:value name, :string-value "name", :map-qualifier nil}
+            {:whitespace " "}
+            {:lines [", one for me."]})})}
+        {:newlines "\n"})})},
+    :position [1 1],
+    :parent nil,
+    :left [],
+    :right ()},
+   :left
+   [[{:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+      :children
+      ({:value ns, :string-value "ns", :map-qualifier nil}
+       {:whitespace " "}
+       {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+     [1 1]]
+    [{:newlines "\n\n\n"} [1 13]]],
+   :right nil},
+  :left
+  [[{:value defn, :string-value "defn", :map-qualifier nil} [4 2]]
+   [{:whitespace " "} [4 6]]
+   [{:value two-fer, :string-value "two-fer", :map-qualifier nil} [4 7]]
+   [{:whitespace " "} [4 14]]
+   [{:newlines "\n"} [4 15]]
+   [{:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ()}
+      {:whitespace "     "}
+      {:lines ["One for you, one for me."]})}
+    [5 1]]
+   [{:newlines "\n"} [5 36]]],
+  :right ({:newlines "\n"})},
+ :left [],
+ :right
+ ({:whitespace "  "}
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+   :children
+   ({:value str, :string-value "str", :map-qualifier nil}
+    {:whitespace " "}
+    {:lines ["One for "]}
+    {:whitespace " "}
+    {:value name, :string-value "name", :map-qualifier nil}
+    {:whitespace " "}
+    {:lines [", one for me."]})}),
+ :changed? true}
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x1f1d2dc "sci.impl.fns$fun$arity_2__7430@1f1d2dc"]>
+clj꞉user꞉> 
+"(ns two-fer)\n\n\n(defn two-fer \n([]     \"One for you, one for me.\")\n([\"PLACEHOLDER-1\"]  (str \"One for \" name \", one for me.\"))\n)"
+clj꞉user꞉> 
+; : java.lang.String cannot be cast to clojure.lang.IFn user 
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x6ff25385 "sci.impl.fns$fun$arity_2__7430@6ff25385"]>
+clj꞉user꞉> 
+{:tag :vector,
+ :format-string "[%s]",
+ :wrap-length 2,
+ :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+ :children [{:lines ["PLACEHOLDER-1"]}]}
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x631e1554 "sci.impl.fns$fun$arity_2__7430@631e1554"]>
+clj꞉user꞉> 
+{:children
+ ({:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+   :children
+   ({:value ns, :string-value "ns", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+  {:newlines "\n\n\n"}
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+   :children
+   ({:value defn, :string-value "defn", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+    {:whitespace " "}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ()}
+      {:whitespace "     "}
+      {:lines ["One for you, one for me."]})}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children [{:lines ["PLACEHOLDER-1"]}]}
+      {:whitespace "  "}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+       :children
+       ({:value str, :string-value "str", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines ["One for "]}
+        {:whitespace " "}
+        {:value name, :string-value "name", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines [", one for me."]})})}
+    {:newlines "\n"})})}
+clj꞉user꞉> 
+; : rewrite_clj.node.forms.FormsNode cannot be cast to clojure.lang.IFn user 
+clj꞉user꞉> 
+{:children
+ ({:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+   :children
+   ({:value ns, :string-value "ns", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+  {:newlines "\n\n\n"}
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+   :children
+   ({:value defn, :string-value "defn", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+    {:whitespace " "}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children []}
+      {:whitespace "     "}
+      {:lines ["One for you, one for me."]})}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ({:value name, :string-value "name", :map-qualifier nil})}
+      {:whitespace "  "}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+       :children
+       ({:value str, :string-value "str", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines ["One for "]}
+        {:whitespace " "}
+        {:value name, :string-value "name", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines [", one for me."]})})}
+    {:newlines "\n"})})}
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x296b2373 "sci.impl.fns$fun$arity_2__7430@296b2373"]>
+clj꞉user꞉> 
+; : nth not supported on this type: FormsNode user 
+clj꞉user꞉> 
+{:var two-fer, :args []}
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x53e35775 "sci.impl.fns$fun$arity_2__7430@53e35775"]>
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x2e3d4bda "sci.impl.fns$fun$arity_2__7430@2e3d4bda"]>
+clj꞉user꞉> 
+{:children
+ ({:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+   :children
+   ({:value ns, :string-value "ns", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+  {:newlines "\n\n\n"}
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+   :children
+   ({:value defn, :string-value "defn", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+    {:whitespace " "}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children []}
+      {:whitespace "     "}
+      {:lines ["One for you, one for me."]})}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ({:value name, :string-value "name", :map-qualifier nil})}
+      {:whitespace "  "}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+       :children
+       ({:value str, :string-value "str", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines ["One for "]}
+        {:whitespace " "}
+        {:value name, :string-value "name", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines [", one for me."]})})}
+    {:newlines "\n"})})}
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x59edc6c0 "sci.impl.fns$fun$arity_2__7430@59edc6c0"]>
+clj꞉user꞉> 
+; : nth not supported on this type: FormsNode user 
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x21c56872 "sci.impl.fns$fun$arity_2__7430@21c56872"]>
+clj꞉user꞉> 
+{:children
+ ({:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0x6ea8e215 "rewrite_clj.node.seq$list_node$fn__32001@6ea8e215"],
+   :children
+   ({:value ns, :string-value "ns", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+  {:newlines "\n\n\n"}
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0xf76eba9 "rewrite_clj.node.seq$list_node$fn__32001@f76eba9"],
+   :children
+   ({:value defn, :string-value "defn", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+    {:whitespace " "}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58e5ac6e "rewrite_clj.node.seq$list_node$fn__32001@58e5ac6e"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children []}
+      {:whitespace "     "}
+      {:lines ["One for you, one for me."]})}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x58f44784 "rewrite_clj.node.seq$list_node$fn__32001@58f44784"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ({:value name, :string-value "name", :map-qualifier nil})}
+      {:whitespace "  "}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x490d046f "rewrite_clj.node.seq$list_node$fn__32001@490d046f"],
+       :children
+       ({:value str, :string-value "str", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines ["One for "]}
+        {:whitespace " "}
+        {:value name, :string-value "name", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines [", one for me."]})})}
+    {:newlines "\n"})})}
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x383da5b2 "sci.impl.fns$fun$arity_2__7430@383da5b2"]>
+clj꞉user꞉> 
+; : nth not supported on this type: FormsNode user 
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x14a71880 "sci.impl.fns$fun$arity_2__7430@14a71880"]>
+clj꞉user꞉> 
+[{:tag :list,
+  :format-string "(%s)",
+  :wrap-length 2,
+  :seq-fn
+  #object[rewrite_clj.node.seq$list_node$fn__32001 0x243b67fa "rewrite_clj.node.seq$list_node$fn__32001@243b67fa"],
+  :children
+  ({:value ns, :string-value "ns", :map-qualifier nil}
+   {:whitespace " "}
+   {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+ {:l [],
+  :pnodes
+  [{:children
+    ({:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x243b67fa "rewrite_clj.node.seq$list_node$fn__32001@243b67fa"],
+      :children
+      ({:value ns, :string-value "ns", :map-qualifier nil}
+       {:whitespace " "}
+       {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+     {:newlines "\n\n\n"}
+     {:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x4e849c6 "rewrite_clj.node.seq$list_node$fn__32001@4e849c6"],
+      :children
+      ({:value defn, :string-value "defn", :map-qualifier nil}
+       {:whitespace " "}
+       {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+       {:whitespace " "}
+       {:newlines "\n"}
+       {:tag :list,
+        :format-string "(%s)",
+        :wrap-length 2,
+        :seq-fn
+        #object[rewrite_clj.node.seq$list_node$fn__32001 0x771bc760 "rewrite_clj.node.seq$list_node$fn__32001@771bc760"],
+        :children
+        ({:tag :vector,
+          :format-string "[%s]",
+          :wrap-length 2,
+          :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+          :children ()}
+         {:whitespace "     "}
+         {:lines ["One for you, one for me."]})}
+       {:newlines "\n"}
+       {:tag :list,
+        :format-string "(%s)",
+        :wrap-length 2,
+        :seq-fn
+        #object[rewrite_clj.node.seq$list_node$fn__32001 0x502ee4bb "rewrite_clj.node.seq$list_node$fn__32001@502ee4bb"],
+        :children
+        ({:tag :vector,
+          :format-string "[%s]",
+          :wrap-length 2,
+          :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+          :children ({:value name, :string-value "name", :map-qualifier nil})}
+         {:whitespace "  "}
+         {:tag :list,
+          :format-string "(%s)",
+          :wrap-length 2,
+          :seq-fn
+          #object[rewrite_clj.node.seq$list_node$fn__32001 0x6c253179 "rewrite_clj.node.seq$list_node$fn__32001@6c253179"],
+          :children
+          ({:value str, :string-value "str", :map-qualifier nil}
+           {:whitespace " "}
+           {:lines ["One for "]}
+           {:whitespace " "}
+           {:value name, :string-value "name", :map-qualifier nil}
+           {:whitespace " "}
+           {:lines [", one for me."]})})}
+       {:newlines "\n"})})}],
+  :ppath nil,
+  :r
+  ({:newlines "\n\n\n"}
+   {:tag :list,
+    :format-string "(%s)",
+    :wrap-length 2,
+    :seq-fn
+    #object[rewrite_clj.node.seq$list_node$fn__32001 0x4e849c6 "rewrite_clj.node.seq$list_node$fn__32001@4e849c6"],
+    :children
+    ({:value defn, :string-value "defn", :map-qualifier nil}
+     {:whitespace " "}
+     {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+     {:whitespace " "}
+     {:newlines "\n"}
+     {:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x771bc760 "rewrite_clj.node.seq$list_node$fn__32001@771bc760"],
+      :children
+      ({:tag :vector,
+        :format-string "[%s]",
+        :wrap-length 2,
+        :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+        :children ()}
+       {:whitespace "     "}
+       {:lines ["One for you, one for me."]})}
+     {:newlines "\n"}
+     {:tag :list,
+      :format-string "(%s)",
+      :wrap-length 2,
+      :seq-fn
+      #object[rewrite_clj.node.seq$list_node$fn__32001 0x502ee4bb "rewrite_clj.node.seq$list_node$fn__32001@502ee4bb"],
+      :children
+      ({:tag :vector,
+        :format-string "[%s]",
+        :wrap-length 2,
+        :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+        :children ({:value name, :string-value "name", :map-qualifier nil})}
+       {:whitespace "  "}
+       {:tag :list,
+        :format-string "(%s)",
+        :wrap-length 2,
+        :seq-fn
+        #object[rewrite_clj.node.seq$list_node$fn__32001 0x6c253179 "rewrite_clj.node.seq$list_node$fn__32001@6c253179"],
+        :children
+        ({:value str, :string-value "str", :map-qualifier nil}
+         {:whitespace " "}
+         {:lines ["One for "]}
+         {:whitespace " "}
+         {:value name, :string-value "name", :map-qualifier nil}
+         {:whitespace " "}
+         {:lines [", one for me."]})})}
+     {:newlines "\n"})})}]
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x9bc5b36 "sci.impl.fns$fun$arity_2__7430@9bc5b36"]>
+clj꞉user꞉> 
+"(ns two-fer)\n\n\n(defn two-fer \n([]     \"One for you, one for me.\")\n([name]  (str \"One for \" name \", one for me.\"))\n)"
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x6ff92a26 "sci.impl.fns$fun$arity_2__7430@6ff92a26"]>
+clj꞉user꞉> 
+#<SciVar@78bd5ebd: #object[sci.impl.fns$fun$arity_2__7430 0x4fa4d0ab "sci.impl.fns$fun$arity_2__7430@4fa4d0ab"]>
+clj꞉user꞉> 
+{:rewrite-clj.custom-zipper.core/custom? true,
+ :node
+ {:tag :list,
+  :format-string "(%s)",
+  :wrap-length 2,
+  :seq-fn
+  #object[rewrite_clj.node.seq$list_node$fn__32001 0x7259a50d "rewrite_clj.node.seq$list_node$fn__32001@7259a50d"],
+  :children
+  ({:value ns, :string-value "ns", :map-qualifier nil}
+   {:whitespace " "}
+   {:value two-fer, :string-value "two-fer", :map-qualifier nil})},
+ :position [1 1],
+ :parent
+ {:rewrite-clj.custom-zipper.core/custom? true,
+  :node
+  {:children
+   ({:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x7259a50d "rewrite_clj.node.seq$list_node$fn__32001@7259a50d"],
+     :children
+     ({:value ns, :string-value "ns", :map-qualifier nil}
+      {:whitespace " "}
+      {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+    {:newlines "\n\n\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x7a1e1503 "rewrite_clj.node.seq$list_node$fn__32001@7a1e1503"],
+     :children
+     ({:value defn, :string-value "defn", :map-qualifier nil}
+      {:whitespace " "}
+      {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+      {:whitespace " "}
+      {:newlines "\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x44517979 "rewrite_clj.node.seq$list_node$fn__32001@44517979"],
+       :children
+       ({:tag :vector,
+         :format-string "[%s]",
+         :wrap-length 2,
+         :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+         :children ()}
+        {:whitespace "     "}
+        {:lines ["One for you, one for me."]})}
+      {:newlines "\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x2923d05f "rewrite_clj.node.seq$list_node$fn__32001@2923d05f"],
+       :children
+       ({:tag :vector,
+         :format-string "[%s]",
+         :wrap-length 2,
+         :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+         :children ({:value name, :string-value "name", :map-qualifier nil})}
+        {:whitespace "  "}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x166a29ab "rewrite_clj.node.seq$list_node$fn__32001@166a29ab"],
+         :children
+         ({:value str, :string-value "str", :map-qualifier nil}
+          {:whitespace " "}
+          {:lines ["One for "]}
+          {:whitespace " "}
+          {:value name, :string-value "name", :map-qualifier nil}
+          {:whitespace " "}
+          {:lines [", one for me."]})})}
+      {:newlines "\n"})})},
+  :position [1 1],
+  :parent nil,
+  :left [],
+  :right ()},
+ :left [],
+ :right
+ ({:newlines "\n\n\n"}
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0x7a1e1503 "rewrite_clj.node.seq$list_node$fn__32001@7a1e1503"],
+   :children
+   ({:value defn, :string-value "defn", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+    {:whitespace " "}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x44517979 "rewrite_clj.node.seq$list_node$fn__32001@44517979"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ()}
+      {:whitespace "     "}
+      {:lines ["One for you, one for me."]})}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x2923d05f "rewrite_clj.node.seq$list_node$fn__32001@2923d05f"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ({:value name, :string-value "name", :map-qualifier nil})}
+      {:whitespace "  "}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x166a29ab "rewrite_clj.node.seq$list_node$fn__32001@166a29ab"],
+       :children
+       ({:value str, :string-value "str", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines ["One for "]}
+        {:whitespace " "}
+        {:value name, :string-value "name", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines [", one for me."]})})}
+    {:newlines "\n"})})}
+clj꞉user꞉> 
+{:rewrite-clj.custom-zipper.core/custom? true,
+ :node
+ {:tag :list,
+  :format-string "(%s)",
+  :wrap-length 2,
+  :seq-fn
+  #object[rewrite_clj.node.seq$list_node$fn__32001 0x6dca3f0a "rewrite_clj.node.seq$list_node$fn__32001@6dca3f0a"],
+  :children
+  ({:value ns, :string-value "ns", :map-qualifier nil}
+   {:whitespace " "}
+   {:value two-fer, :string-value "two-fer", :map-qualifier nil})},
+ :position [1 1],
+ :parent
+ {:rewrite-clj.custom-zipper.core/custom? true,
+  :node
+  {:children
+   ({:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x6dca3f0a "rewrite_clj.node.seq$list_node$fn__32001@6dca3f0a"],
+     :children
+     ({:value ns, :string-value "ns", :map-qualifier nil}
+      {:whitespace " "}
+      {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+    {:newlines "\n\n\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x2fff6e07 "rewrite_clj.node.seq$list_node$fn__32001@2fff6e07"],
+     :children
+     ({:value defn, :string-value "defn", :map-qualifier nil}
+      {:whitespace " "}
+      {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+      {:whitespace " "}
+      {:newlines "\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x6161585c "rewrite_clj.node.seq$list_node$fn__32001@6161585c"],
+       :children
+       ({:tag :vector,
+         :format-string "[%s]",
+         :wrap-length 2,
+         :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+         :children ()}
+        {:whitespace "     "}
+        {:lines ["One for you, one for me."]})}
+      {:newlines "\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x679147eb "rewrite_clj.node.seq$list_node$fn__32001@679147eb"],
+       :children
+       ({:tag :vector,
+         :format-string "[%s]",
+         :wrap-length 2,
+         :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+         :children ({:lines ["PLACEHOLDER-1"]})}
+        {:whitespace "  "}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x168f46b "rewrite_clj.node.seq$list_node$fn__32001@168f46b"],
+         :children
+         ({:value str, :string-value "str", :map-qualifier nil}
+          {:whitespace " "}
+          {:lines ["One for "]}
+          {:whitespace " "}
+          {:value name, :string-value "name", :map-qualifier nil}
+          {:whitespace " "}
+          {:lines [", one for me."]})})}
+      {:newlines "\n"})})},
+  :position [1 1],
+  :parent nil,
+  :left [],
+  :right ()},
+ :left [],
+ :right
+ ({:newlines "\n\n\n"}
+  {:tag :list,
+   :format-string "(%s)",
+   :wrap-length 2,
+   :seq-fn
+   #object[rewrite_clj.node.seq$list_node$fn__32001 0x2fff6e07 "rewrite_clj.node.seq$list_node$fn__32001@2fff6e07"],
+   :children
+   ({:value defn, :string-value "defn", :map-qualifier nil}
+    {:whitespace " "}
+    {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+    {:whitespace " "}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x6161585c "rewrite_clj.node.seq$list_node$fn__32001@6161585c"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ()}
+      {:whitespace "     "}
+      {:lines ["One for you, one for me."]})}
+    {:newlines "\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x679147eb "rewrite_clj.node.seq$list_node$fn__32001@679147eb"],
+     :children
+     ({:tag :vector,
+       :format-string "[%s]",
+       :wrap-length 2,
+       :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+       :children ({:lines ["PLACEHOLDER-1"]})}
+      {:whitespace "  "}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x168f46b "rewrite_clj.node.seq$list_node$fn__32001@168f46b"],
+       :children
+       ({:value str, :string-value "str", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines ["One for "]}
+        {:whitespace " "}
+        {:value name, :string-value "name", :map-qualifier nil}
+        {:whitespace " "}
+        {:lines [", one for me."]})})}
+    {:newlines "\n"})})}
+clj꞉user꞉> 
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+(["PLACEHOLDER-1"]  (str "PLACEHOLDER-1" name ", one for me."))
+)
+nil
+clj꞉user꞉> 
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+(["PLACEHOLDER-1"]  (str "PLACEHOLDER-1" name ", one for me."))
+)
+nil
+clj꞉user꞉> 
+#<SciVar@4cee8c01: #object[sci.impl.fns$fun$arity_1__7423 0x1184a688 "sci.impl.fns$fun$arity_1__7423@1184a688"]>
+clj꞉user꞉> 
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+(["PLACEHOLDER-1"]  (str "PLACEHOLDER-1" name ", one for me."))
+)
+nil
+resources/twofers/49/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 46559
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#<SciVar@7263daf5: "two-fer">
+clj꞉user꞉> 
+#<SciVar@6db281e5: "resources/twofers/49">
+clj꞉user꞉> 
+#<SciVar@8e42ec4: "resources/twofers/49">
+clj꞉user꞉> 
+#<SciVar@448d5418: #object[sci.impl.fns$fun$arity_1__7423 0x25a294ef "sci.impl.fns$fun$arity_1__7423@25a294ef"]>
+clj꞉user꞉> 
+#<SciVar@5c7d7f09: 
+  {:namespace-definitions
+   [{:end-row 1,
+     :name-end-col 12,
+     :name-end-row 1,
+     :name-row 1,
+     :name two-fer,
+     :filename "resources/twofers/49/two_fer.clj",
+     :col 1,
+     :name-col 5,
+     :end-col 13,
+     :row 1}],
+   :namespace-usages [],
+   :var-definitions
+   [{:fixed-arities #{0 1},
+     :end-row 7,
+     :name-end-col 14,
+     :name-end-row 4,
+     :name-row 4,
+     :ns two-fer,
+     :name two-fer,
+     :defined-by clojure.core/defn,
+     :filename "resources/twofers/49/two_fer.clj",
+     :col 1,
+     :name-col 7,
+     :end-col 2,
+     :arglist-strs ["[]" "[name]"],
+     :row 4}],
+   :var-usages
+   [{:fixed-arities #{0 1},
+     :end-row 6,
+     :name-end-col 14,
+     :name-end-row 6,
+     :name-row 6,
+     :name str,
+     :filename "resources/twofers/49/two_fer.clj",
+     :from two-fer,
+     :col 10,
+     :name-col 11,
+     :from-var two-fer,
+     :end-col 47,
+     :arity 3,
+     :varargs-min-arity 1,
+     :row 6,
+     :to clojure.core}
+    {:end-row 7,
+     :name-end-col 6,
+     :name-end-row 4,
+     :name-row 4,
+     :name defn,
+     :filename "resources/twofers/49/two_fer.clj",
+     :from two-fer,
+     :macro true,
+     :col 1,
+     :name-col 2,
+     :end-col 2,
+     :arity 3,
+     :varargs-min-arity 2,
+     :row 4,
+     :to clojure.core}],
+   :locals
+   [{:end-row 6,
+     :scope-end-row 6,
+     :name name,
+     :scope-end-col 48,
+     :filename "resources/twofers/49/two_fer.clj",
+     :str "name",
+     :col 3,
+     :id 1,
+     :end-col 7,
+     :row 6}],
+   :local-usages
+   [{:end-row 6,
+     :name-end-col 30,
+     :name-end-row 6,
+     :name-row 6,
+     :name name,
+     :filename "resources/twofers/49/two_fer.clj",
+     :col 26,
+     :id 1,
+     :name-col 26,
+     :end-col 30,
+     :row 6}]}>
+clj꞉user꞉> 
+#<SciVar@2aa542fc: ({:name name, :row 6, :col 3} {:name name, :row 6, :col 26})>
+clj꞉user꞉> 
+Generating resources/twofers/49/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+#<SciVar@16eed7fc: {"name" "PLACEHOLDER-1"}>
+clj꞉user꞉> 
+#<SciVar@54f4ceba: 
+  {:rewrite-clj.custom-zipper.core/custom? true,
+   :node
+   {:tag :list,
+    :format-string "(%s)",
+    :wrap-length 2,
+    :seq-fn
+    #object[rewrite_clj.node.seq$list_node$fn__32001 0x2c41e0a4 "rewrite_clj.node.seq$list_node$fn__32001@2c41e0a4"],
+    :children
+    ({:value ns, :string-value "ns", :map-qualifier nil}
+     {:whitespace " "}
+     {:value two-fer, :string-value "two-fer", :map-qualifier nil})},
+   :position [1 1],
+   :parent
+   {:rewrite-clj.custom-zipper.core/custom? true,
+    :node
+    {:children
+     ({:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x2c41e0a4 "rewrite_clj.node.seq$list_node$fn__32001@2c41e0a4"],
+       :children
+       ({:value ns, :string-value "ns", :map-qualifier nil}
+        {:whitespace " "}
+        {:value two-fer, :string-value "two-fer", :map-qualifier nil})}
+      {:newlines "\n\n\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x4c908ed2 "rewrite_clj.node.seq$list_node$fn__32001@4c908ed2"],
+       :children
+       ({:value defn, :string-value "defn", :map-qualifier nil}
+        {:whitespace " "}
+        {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+        {:whitespace " "}
+        {:newlines "\n"}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x6b41c45c "rewrite_clj.node.seq$list_node$fn__32001@6b41c45c"],
+         :children
+         ({:tag :vector,
+           :format-string "[%s]",
+           :wrap-length 2,
+           :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+           :children ()}
+          {:whitespace "     "}
+          {:lines ["One for you, one for me."]})}
+        {:newlines "\n"}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x18e468e0 "rewrite_clj.node.seq$list_node$fn__32001@18e468e0"],
+         :children
+         ({:tag :vector,
+           :format-string "[%s]",
+           :wrap-length 2,
+           :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+           :children ({:value name, :string-value "name", :map-qualifier nil})}
+          {:whitespace "  "}
+          {:tag :list,
+           :format-string "(%s)",
+           :wrap-length 2,
+           :seq-fn
+           #object[rewrite_clj.node.seq$list_node$fn__32001 0x2d0fdce9 "rewrite_clj.node.seq$list_node$fn__32001@2d0fdce9"],
+           :children
+           ({:value str, :string-value "str", :map-qualifier nil}
+            {:whitespace " "}
+            {:lines ["One for "]}
+            {:whitespace " "}
+            {:value name, :string-value "name", :map-qualifier nil}
+            {:whitespace " "}
+            {:lines [", one for me."]})})}
+        {:newlines "\n"})})},
+    :position [1 1],
+    :parent nil,
+    :left [],
+    :right ()},
+   :left [],
+   :right
+   ({:newlines "\n\n\n"}
+    {:tag :list,
+     :format-string "(%s)",
+     :wrap-length 2,
+     :seq-fn
+     #object[rewrite_clj.node.seq$list_node$fn__32001 0x4c908ed2 "rewrite_clj.node.seq$list_node$fn__32001@4c908ed2"],
+     :children
+     ({:value defn, :string-value "defn", :map-qualifier nil}
+      {:whitespace " "}
+      {:value two-fer, :string-value "two-fer", :map-qualifier nil}
+      {:whitespace " "}
+      {:newlines "\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x6b41c45c "rewrite_clj.node.seq$list_node$fn__32001@6b41c45c"],
+       :children
+       ({:tag :vector,
+         :format-string "[%s]",
+         :wrap-length 2,
+         :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+         :children ()}
+        {:whitespace "     "}
+        {:lines ["One for you, one for me."]})}
+      {:newlines "\n"}
+      {:tag :list,
+       :format-string "(%s)",
+       :wrap-length 2,
+       :seq-fn
+       #object[rewrite_clj.node.seq$list_node$fn__32001 0x18e468e0 "rewrite_clj.node.seq$list_node$fn__32001@18e468e0"],
+       :children
+       ({:tag :vector,
+         :format-string "[%s]",
+         :wrap-length 2,
+         :seq-fn #object[clojure.core$vec 0x7306a65d "clojure.core$vec@7306a65d"],
+         :children ({:value name, :string-value "name", :map-qualifier nil})}
+        {:whitespace "  "}
+        {:tag :list,
+         :format-string "(%s)",
+         :wrap-length 2,
+         :seq-fn
+         #object[rewrite_clj.node.seq$list_node$fn__32001 0x2d0fdce9 "rewrite_clj.node.seq$list_node$fn__32001@2d0fdce9"],
+         :children
+         ({:value str, :string-value "str", :map-qualifier nil}
+          {:whitespace " "}
+          {:lines ["One for "]}
+          {:whitespace " "}
+          {:value name, :string-value "name", :map-qualifier nil}
+          {:whitespace " "}
+          {:lines [", one for me."]})})}
+      {:newlines "\n"})})}>
+clj꞉user꞉> 
+#<SciVar@7149a17f: #object[sci.impl.fns$fun$arity_2__7430 0x395693e7 "sci.impl.fns$fun$arity_2__7430@395693e7"]>
+clj꞉user꞉> 
+#<SciVar@6aa13049: #object[sci.impl.fns$fun$arity_1__7423 0xf848382 "sci.impl.fns$fun$arity_1__7423@f848382"]>
+clj꞉user꞉> 
+#<SciVar@4a0c326f: #object[sci.impl.fns$fun$arity_2__7430 0x3f11a725 "sci.impl.fns$fun$arity_2__7430@3f11a725"]>
+clj꞉user꞉> 
+#<SciVar@6044cd5e: #object[sci.impl.fns$fun$arity_1__7423 0x11c98fee "sci.impl.fns$fun$arity_1__7423@11c98fee"]>
+clj꞉user꞉> 
+#<SciVar@2838beb2: #object[sci.impl.fns$fun$arity_1__7423 0x3de11412 "sci.impl.fns$fun$arity_1__7423@3de11412"]>
+clj꞉user꞉> 
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+(["PLACEHOLDER-1"]  (str "PLACEHOLDER-1" name ", one for me."))
+)
+nil
+clj꞉user꞉> 
+; : Could not resolve symbol: zloc user 
+clj꞉user꞉> 
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+(["PLACEHOLDER-1"]  (str "PLACEHOLDER-1" name ", one for me."))
+)
+nil
+clj꞉user꞉> 
+#<SciVar@2838beb2: #object[sci.impl.fns$fun$arity_1__7423 0x6613fffc "sci.impl.fns$fun$arity_1__7423@6613fffc"]>
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#<SciVar@4a0c326f: #object[sci.impl.fns$fun$arity_2__7430 0x31e33a98 "sci.impl.fns$fun$arity_2__7430@31e33a98"]>
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#<SciVar@4a0c326f: #object[sci.impl.fns$fun$arity_2__7430 0x5d5098b5 "sci.impl.fns$fun$arity_2__7430@5d5098b5"]>
+clj꞉user꞉> 
+; : no conversion to symbol user 
+clj꞉user꞉> 
+#<SciVar@4a0c326f: #object[sci.impl.fns$fun$arity_2__7430 0x35d9388e "sci.impl.fns$fun$arity_2__7430@35d9388e"]>
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#<SciVar@4a0c326f: #object[sci.impl.fns$fun$arity_2__7430 0x13d4d667 "sci.impl.fns$fun$arity_2__7430@13d4d667"]>
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#<SciVar@4a0c326f: #object[sci.impl.fns$fun$arity_2__7430 0x677205cc "sci.impl.fns$fun$arity_2__7430@677205cc"]>
+clj꞉user꞉> 
+; : no conversion to symbol user 
+clj꞉user꞉> 
+#<SciVar@4a0c326f: #object[sci.impl.fns$fun$arity_2__7430 0x30627bc2 "sci.impl.fns$fun$arity_2__7430@30627bc2"]>
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#<SciVar@4a0c326f: #object[sci.impl.fns$fun$arity_2__7430 0x34c35566 "sci.impl.fns$fun$arity_2__7430@34c35566"]>
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+; Evaluating file: test.clj
+; : /home/runner user 
+; Evaluation of file test.clj failed: class 
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#<SciVar@c52aacc: #object[sci.impl.fns$fun$arity_0__6914 0x7d8d0c0f "sci.impl.fns$fun$arity_0__6914@7d8d0c0f"]>
+clj꞉user꞉> 
+500 total solutions
+331 unique solutions
+path= resources/twofers/49
+Generating resources/twofers/49/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/49/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+([name]  (str "One for " name ", one for me."))
+)
+Representation
+(ns two-fer)
+
+
+(defn two-fer 
+([]     "One for you, one for me.")
+(["PLACEHOLDER-1"]  (str "One for " "PLACEHOLDER-1" ", one for me."))
+)
+
+path= resources/twofers/181
+Generating resources/twofers/181/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/181/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer
+  ([] (str "One for you, one for me."))
+  ([name] (str "One for " name ", one for me.")))
+
+Representation
+(ns two-fer)
+
+(defn two-fer
+  ([] (str "One for you, one for me."))
+  (["PLACEHOLDER-1"] (str "One for " "PLACEHOLDER-1" ", one for me.")))
+
+
+path= resources/twofers/363
+Generating resources/twofers/363/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/363/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer
+  ([] "One for you, one for me.")
+  ([name] (str "One for " name ", one for me.")))
+Representation
+(ns two-fer)
+
+(defn two-fer
+  ([] "One for you, one for me.")
+  (["PLACEHOLDER-1"] (str "One for " "PLACEHOLDER-1" ", one for me.")))
+path= resources/twofers/478
+Generating resources/twofers/478/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/478/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer
+  ([]     (two-fer "you"))
+  ([name] (str "One for " name ", one for me.")))
+
+Representation
+(ns two-fer)
+
+(defn two-fer
+  ([]     (two-fer "you"))
+  (["PLACEHOLDER-1"] (str "One for " "PLACEHOLDER-1" ", one for me.")))
+
+
+path= resources/twofers/433
+Generating resources/twofers/433/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/433/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer
+  ([] (two-fer "you"))
+  ([name] (str "One for " name ", one for me.")))
+
+Representation
+(ns two-fer)
+
+(defn two-fer
+  ([] (two-fer "you"))
+  (["PLACEHOLDER-1"] (str "One for " "PLACEHOLDER-1" ", one for me.")))
+
+
+path= resources/twofers/455
+Generating resources/twofers/455/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/455/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer 
+  ([] (two-fer "you"))
+  ([name] (format "One for %s, one for me." name)))
+Representation
+(ns two-fer)
+
+(defn two-fer 
+  ([] (two-fer "you"))
+  (["PLACEHOLDER-1"] (format "One for %s, one for me." "PLACEHOLDER-1")))
+
+path= resources/twofers/242
+Generating resources/twofers/242/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/242/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer
+  ([] (two-fer "you"))
+  ([name] (str "One for " name ", one for me."))
+)
+
+Representation
+(ns two-fer)
+
+(defn two-fer
+  ([] (two-fer "you"))
+  (["PLACEHOLDER-1"] (str "One for " "PLACEHOLDER-1" ", one for me."))
+)
+
+path= resources/twofers/52
+Generating resources/twofers/52/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/52/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer
+  ([] (two-fer "you"))
+  ([name] ;; <- arglist goes here
+   (str "One for " name ", one for me.")))
+
+Representation
+(ns two-fer)
+
+(defn two-fer
+  ([] (two-fer "you"))
+  (["PLACEHOLDER-1"] ;; <- arglist goes here
+   (str "One for " "PLACEHOLDER-1" ", one for me.")))
+
+
+path= resources/twofers/413
+Generating resources/twofers/413/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/413/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer
+  ([] "One for you, one for me.")
+  ([name] (str "One for " name ", one for me."))
+)
+Representation
+(ns two-fer)
+
+(defn two-fer
+  ([] "One for you, one for me.")
+  (["PLACEHOLDER-1"] (str "One for " "PLACEHOLDER-1" ", one for me."))
+)
+path= resources/twofers/379
+Generating resources/twofers/379/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+nil
+resources/twofers/379/mapping.json
+{
+  "PLACEHOLDER-1" : "name"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer
+  ([]
+   "One for you, one for me.")
+  ([name]
+   (str "One for " name ", one for me.")))
+
+Representation
+(ns two-fer)
+
+(defn two-fer
+  ([]
+   "One for you, one for me.")
+  (["PLACEHOLDER-1"]
+   (str "One for " "PLACEHOLDER-1" ", one for me.")))
+
+
+path= resources/twofers/27
+Generating resources/twofers/27/mapping.json
+{
+  "PLACEHOLDER-1" : "[name]",
+  "PLACEHOLDER-2" : "name",
+  "PLACEHOLDER-3" : "&"
+}
+
+Source
+(ns two-fer)
+
+(defn two-fer [&[name]]
+  (format "One for %s, one for me." (if (nil? name) "you" name))
+)
+
+
+Representation
+; : resources/twofers/27/representation.txt (No such file or directory) user 
+clj꞉user꞉> 

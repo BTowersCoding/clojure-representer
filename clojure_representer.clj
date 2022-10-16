@@ -12,9 +12,9 @@
 (def out-dir (str (fs/path (last *command-line-args*))))
 
 (comment
-  (def slug "test-code")
-  (def in-dir (str (fs/path "solution/")))
-  (def out-dir (str (fs/path "resources/")))
+  (def slug "two-fer")
+  (def in-dir "resources/twofers/49")
+  (def out-dir "resources/twofers/49")
   )
 
 (defn snake-case [kebab-case]
@@ -67,17 +67,19 @@
              (get placeholders (str name))))
 
 (defn arglists [var-def]
-  (let [lists (map edn/read-string (:arglist-strs var-def))]
+  (let [lists  (:arglist-strs var-def)]
     (into [] (for [list lists]
-               {:var  (:name var-def)
-                :args list}))))
+               {:var  (symbol (:name var-def))
+                :args (mapv symbol (edn/read-string list))}))))
 
 (defn replace-arglist [z arglist]
-    (-> z
-        (z/find-value z/next (:var arglist))
-        (z/find-next-depth-first #(= (:args arglist) (z/sexpr %)))
-        (z/replace (mapv #(symbol (get placeholders (str %)))
-                         (:args arglist)))))
+  (-> z
+      (z/find-value z/next (:var arglist))
+      (z/find-next-depth-first #(= (:args arglist) (z/sexpr %)))
+      (z/replace (mapv #(get placeholders (symbol %))
+                       (:args arglist)))
+      z/root-string
+      (z/of-string {:track-position? true})))
 
 (defn replace-locals [zloc]
   (loop [z zloc idents locals]
@@ -88,10 +90,10 @@
 
 (defn represent [zloc]
   (spit (fs/file out-dir "representation.txt") 
-    (-> (reduce replace-arglist zloc
-           (mapcat arglists (:var-definitions analysis)))
-         replace-locals
-         z/root-string))))
+    (with-out-str (-> (reduce replace-arglist zloc
+                              (mapcat arglists (:var-definitions analysis)))
+                      replace-locals
+                      z/root-string))))
 
 (let [mapping (str (fs/file out-dir "mapping.json"))]
   (println (represent impl))
